@@ -1,14 +1,19 @@
+{% set name = "pyaxiom" %}
+{% set version = "1.1.9" %}
+{% set build = 0 %}
+{% set md5 = "f15634b0c9a7ae5e4f301f20804cbb78" %}
+
 package:
-    name: pyaxiom
-    version: 1.1.8
+    name: {{ name }}
+    version: {{ version }}
 
 source:
-    fn: pyaxiom-1.1.8.tar.gz
-    url: https://pypi.python.org/packages/source/p/pyaxiom/pyaxiom-1.1.8.tar.gz
-    md5: c73d8218ce08e74bd636a759a4d85e8f
+    fn: {{ name }}-{{ version }}.tar.gz
+    url: https://pypi.python.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+    md5: {{ md5 }}
 
 build:
-    number: 0
+    number: {{ build }}
     script: python setup.py install --single-version-externally-managed --record record.txt
     entry_points:
         - binner=pyaxiom.netcdf.grids.binner:run

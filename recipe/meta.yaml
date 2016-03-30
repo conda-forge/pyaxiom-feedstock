@@ -1,7 +1,7 @@
 {% set name = "pyaxiom" %}
-{% set version = "1.1.10" %}
+{% set version = "1.1.12" %}
 {% set build = 0 %}
-{% set md5 = "718c7d40e237b4eb76503e71df057ed5" %}
+{% set md5 = "d3d9ea4ab4517571f9711c7ac5ae04a9" %}
 
 package:
     name: {{ name }}

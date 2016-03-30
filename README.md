@@ -73,6 +73,11 @@ Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyaxiom-feedstock.svg?s
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyaxiom-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyaxiom-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyaxiom-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyaxiom-feedstock/branch/master)
 
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyaxiom/badges/version.svg)](https://anaconda.org/conda-forge/pyaxiom)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyaxiom/badges/downloads.svg)](https://anaconda.org/conda-forge/pyaxiom)
+
 
 Updating pyaxiom-feedstock
 ==========================

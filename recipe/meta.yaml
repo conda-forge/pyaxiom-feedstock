@@ -1,7 +1,7 @@
 {% set name = "pyaxiom" %}
-{% set version = "1.1.12" %}
+{% set version = "1.1.13" %}
 {% set build = 0 %}
-{% set md5 = "d6c99ae4202b1472f8baee3afc7dae95" %}
+{% set sha256 = "d3a386980969838aaf2ff56972e603bf2104d2a348bf6061d1db6c5cbce0aec7" %}
 
 package:
     name: {{ name }}
@@ -9,8 +9,8 @@ package:
 
 source:
     fn: {{ name }}-{{ version }}.tar.gz
-    url: https://pypi.python.org/packages/87/71/b9d85eba2832a157194c1bec48558f2e90f5e24b3bda73b3def9489a3856/pyaxiom-1.1.13.tar.gz
-    md5: {{ md5 }}
+    url: https://github.com/axiom-data-science/pyaxiom/archive/{{ version }}.tar.gz
+    sha256: {{ sha256 }}
 
 build:
     number: {{ build }}

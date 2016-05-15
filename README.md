@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyaxiom-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/pyaxiom-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyaxiom-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyaxiom-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyaxiom-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyaxiom-feedstock/branch/master)

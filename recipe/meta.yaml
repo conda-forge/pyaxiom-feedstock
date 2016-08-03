@@ -1,7 +1,7 @@
 {% set name = "pyaxiom" %}
-{% set version = "1.1.17" %}
+{% set version = "1.2.0" %}
 {% set build = 0 %}
-{% set sha256 = "010bc75b85853a7ead82d0fe101d8cfd5086ad69bd722e9f1b83fe4b912e2fc1" %}
+{% set sha256 = "d3bc28ea1c0c5dfeaa229ab99c1c431acab03cf670674e2f045b92e0cdf642e0" %}
 
 package:
     name: {{ name }}
@@ -31,6 +31,7 @@ requirements:
         - pandas
         - pyncml
         - pynco  # [not win]
+        - simplejson
 
 test:
     imports:

@@ -3,11 +3,11 @@ About pyaxiom
 
 Home: https://github.com/axiom-data-science/pyaxiom
 
-Package license: MIT License
+Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: An ocean data toolkit developed and used by Axiom Data Science
+Summary: An ocean data toolkit developed and used by Axiom Data Science.
 
 
 

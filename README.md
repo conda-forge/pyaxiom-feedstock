@@ -11,6 +11,18 @@ Summary: An ocean data toolkit developed and used by Axiom Data Science.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyaxiom-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyaxiom-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyaxiom-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyaxiom-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyaxiom-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyaxiom-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyaxiom/badges/version.svg)](https://anaconda.org/conda-forge/pyaxiom)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyaxiom/badges/downloads.svg)](https://anaconda.org/conda-forge/pyaxiom)
+
 Installing pyaxiom
 ==================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `pyaxiom` available on your platfo
 ```
 conda search pyaxiom --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyaxiom-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyaxiom-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyaxiom-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyaxiom-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyaxiom-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyaxiom-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyaxiom/badges/version.svg)](https://anaconda.org/conda-forge/pyaxiom)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyaxiom/badges/downloads.svg)](https://anaconda.org/conda-forge/pyaxiom)
 
 
 Updating pyaxiom-feedstock

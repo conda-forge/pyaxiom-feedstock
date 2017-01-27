@@ -1,7 +1,7 @@
 {% set name = "pyaxiom" %}
-{% set version = "1.4.2" %}
+{% set version = "1.4.3" %}
 {% set build = 0 %}
-{% set sha256 = "3236c0b2f664d374ae1eae565ef640c18eb3b585403a81fe62a4c4490b4785f0" %}
+{% set sha256 = "62ad14b936f453134c5982b6bd9d4998f0396eb798e4f74ed9d563d793fb00a2" %}
 
 package:
   name: {{ name }}

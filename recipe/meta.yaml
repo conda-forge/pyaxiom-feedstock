@@ -1,22 +1,19 @@
-{% set name = "pyaxiom" %}
 {% set version = "1.4.6" %}
-{% set build = 1 %}
-{% set sha256 = "6770e504db4755f7041d50880c265348f5c443887589a1f2cb8642c026326b5b" %}
 
 package:
-  name: {{ name }}
+  name: pyaxiom
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://github.com/axiom-data-science/pyaxiom/archive/{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: 6770e504db4755f7041d50880c265348f5c443887589a1f2cb8642c026326b5b
 
 build:
-  number: {{ build }}
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 1
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
   entry_points:
-    - binner=pyaxiom.netcdf.grids.binner:run
+    - binner = pyaxiom.netcdf.grids.binner:run
 
 requirements:
   build:

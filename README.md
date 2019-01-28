@@ -18,9 +18,8 @@ Summary: An ocean data toolkit developed and used by Axiom Data Science.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/pyaxiom-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/pyaxiom-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/pyaxiom-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pyaxiom-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/pyaxiom-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/pyaxiom-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pyaxiom-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pyaxiom-feedstock)
 
 Current release info
 ====================

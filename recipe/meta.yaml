@@ -27,7 +27,7 @@ requirements:
     - netcdf4
     - pandas
     - pyncml
-    - pynco  # [not win]
+    - pynco
     - simplejson
 
 test:

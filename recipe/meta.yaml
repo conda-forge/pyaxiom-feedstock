@@ -9,18 +9,18 @@ source:
   sha256: 6770e504db4755f7041d50880c265348f5c443887589a1f2cb8642c026326b5b
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
   entry_points:
     - binner = pyaxiom.netcdf.grids.binner:run
 
 requirements:
-  build:
-    - python
+  host:
+    - python {{ python_min }}
     - pip
   run:
-    - python
+    - python >={{ python_min }}
     - numpy
     - pytz
     - python-dateutil
@@ -31,6 +31,8 @@ requirements:
     - simplejson
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - pyaxiom
     - pyaxiom.netcdf
